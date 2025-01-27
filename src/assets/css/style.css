@@ -281,7 +281,8 @@ ins {
 	background-color: var(--accent);
 }
 
-.footer-nav__list {
+.footer-nav__list,
+.footer-nav__item {
 	margin-bottom: 0;
 }
 
