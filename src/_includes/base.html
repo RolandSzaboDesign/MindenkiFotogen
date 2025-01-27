@@ -2,18 +2,13 @@
 <html lang="hu">
 	<head>
 		<meta charset="utf-8">
-		<title>{{ title }} | Mindenki Fotogén</title>
+		<title>{% if title %}{{ title }} | {% endif %}Mindenki Fotogén</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<meta name="description" content="{{ description | default: 'Mindenki fotogén. Egy laza, 30 perces fotózáson segítek megtalálni a legjobb oldalad, és olyan képeket készítünk, amikre büszke lehetsz.' }}">
 
 		<!-- Styles -->
 		<link rel="stylesheet" href="/assets/css/style.css">
-
-		<!-- Google Fonts -->
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
 
 		<!-- Favicons -->
 		<link rel="icon" type="image/png" href="/assets/favicons/favicon-96x96.png" sizes="96x96">
